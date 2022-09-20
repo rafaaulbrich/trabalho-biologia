@@ -24,14 +24,15 @@ header{
 }
 
 #titulo > h1 {
-    color: #F4B8C1;
+    color: white;
 }
 
 #menu-principal > a{
     text-align: center;
     margin-left: 150px;
-    color: black;
+    color: white;
     text-decoration: none;
+    font-size: 25px;
 }
 #menu-principal{
     position: sticky; 
@@ -43,4 +44,34 @@ header{
     height: 35px;
     font-size: 18px;
 }
-
+nav{
+    text-align: center;
+    box-shadow: 4px 4px 4px #F4B8C1;
+}
+main {
+    border: 5px #F29EAC solid;
+    border-radius: 10px 10px;
+    box-shadow: 4px 4px 4px #F4B8C1;
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+body {
+    background-color: #FCF0F3;
+}
+#coletor{
+    text-align: center;
+    color:#F29EAC;
+}
+#abdorvente-pano{
+    text-align: center;
+    color:#F29EAC;
+}
+#ob{
+    text-align: center;
+    color:#F29EAC;  
+}
+#absorvente{
+    text-align: center;
+    color:#F29EAC;  
+}
