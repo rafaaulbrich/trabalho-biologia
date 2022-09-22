@@ -19,7 +19,7 @@ header{
     width: 150px;
 } 
 
-#titulo > a > strong{
+#titulo > a{
     width: 100%;
     text-align: center;
     font-family: 'Ms Madi', cursive;
