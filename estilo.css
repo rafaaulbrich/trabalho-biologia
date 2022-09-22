@@ -69,17 +69,14 @@ body {
 }
 @keyframes sombra {
     0%{
-        text-shadow: 0px 0px 1px #F29EAC;
-    }
-    50%{
-        text-shadow: 0px 0px 1px #F4B8C1;
+        text-shadow: 0px 0px 15px #FCF0F3;
     }
     100%{
-        text-shadow: 10px 10px 1px #F29EAC;
+        text-shadow: 10px 10px 15px #c97886 ;
     }
 }
 
-nav > a:hover{
+a:hover{
     animation: sombra 2s 1 forwards;
 }
 
