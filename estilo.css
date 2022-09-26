@@ -79,4 +79,8 @@ body {
 a:hover{
     animation: sombra 2s 1 forwards;
 }
+ul{
+    list-style: none;
+    font-size: 20px;
+}
 
